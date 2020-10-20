@@ -26,7 +26,8 @@ int scanhead(FILE* infile, int* image_width, int* image_height) {
         }
         do readbyte(marker, infile); while (marker == 0xFF);
 
-        if (discarded_bytes != 0) return 0;
+        //if (discarded_bytes != 0) 
+            //return 0;
 
         switch (marker) {
         case 0xC0:
