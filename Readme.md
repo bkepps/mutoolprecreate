@@ -1,1 +1,1 @@
-When given images this will create the files necessary to create a pdf using mutool create
+This is a tool written to generate configuration files for using [mutool](https://mupdf.com/docs/mutool.html) to create a pdf from .jpg files. It works well with .jpg files produced by the samsung camera app, but some jpegs don't work.
